@@ -1,0 +1,15 @@
+https://howtodoinjava.com/for-fun-only/how-to-send-email-in-java-using-gmail-smtp-server/
+
+https://javapapers.com/core-java/java-email/
+
+
+https://support.google.com/mail/answer/7126229?visit_id=637024357025085726-2014225313&rd=2#cantsignin
+
+https://stackoverflow.com/questions/35347269/javax-mail-authenticationfailedexception-535-5-7-8-username-and-password-not-ac
+
+Sorry for coming late to Party.These could be the problem in your task if you are using Gmail Server.
+1.Two Step Verification should be turned off.
+2.Allow Less Secure App(should be turned on).
+3.Please Check Your UserName and Password.
+4.Check the code(which was my Problem), Above three You can change form google help center and by Yourself last one My Experience I can Share with You. You need to Authenticate the Mail server before Communicating the message because it is Challenge Response System By which You are Communicating through the mail.I am sharing code snippets file you can refer not able to format my code by ctrl+K.
+
